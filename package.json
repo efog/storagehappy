@@ -1,0 +1,38 @@
+{
+  "name": "storagehappy",
+  "version": "1.0.0",
+  "description": "An unopiniated secure application storage API ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efog/storagehappy.git"
+  },
+  "keywords": [
+    "storage",
+    "api",
+    "application"
+  ],
+  "author": "etienne.brouillard@outlook.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/efog/storagehappy/issues"
+  },
+  "homepage": "https://github.com/efog/storagehappy#readme",
+  "devDependencies": {
+    "@thebespokepixel/guppy-pre-commit": "^0.3.3",
+    "git-guppy": "^1.2.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-jasmine": "^2.4.0",
+    "jasmine": "^2.4.1",
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "restify": "^4.1.1",
+    "swagger-restify-mw": "^0.1.0"
+  }
+}
